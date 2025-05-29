@@ -9,5 +9,5 @@ proc deleteRegistryKey(keyPath: string) =
   else:
     echo "Failed to delete key: ", result
 
-# Example usage:
+#Delete the key
 deleteRegistryKey(r"Software\Microsoft\Windows\CurrentVersion\Explorer\TestKey") #key to delete
