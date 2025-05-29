@@ -1,3 +1,5 @@
+#I don't even know how this is useful, just use C# for windows programmes.
+
 import winim/lean #light version of winim Windows API module
 
 proc deleteRegistryKey(keyPath: string) =
