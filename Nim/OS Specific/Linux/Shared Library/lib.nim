@@ -1,6 +1,6 @@
 #nim c --app:lib --out:lib.so lib.nim
 
-proc NimMain() {.cdecl, importc.}
+proc NimMain() {.cdecl, importc.} #Sets up the Nim runtime, must be called before using any Nim code in a shared library context
  
 proc library_init(): cint {.exportc, dynlib, cdecl.} =
   NimMain() #Initializes the library
