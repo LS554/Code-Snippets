@@ -1,6 +1,6 @@
 # Linux shared library in Nim
 
-Shared libraries allow for code to be shared accross programmes and sytem wide. They are the Linux equivalent of DLLs.
+Shared libraries allow for code to be shared accross programmes or sytem wide. They are the Linux equivalent of DLLs.
 
 
 
