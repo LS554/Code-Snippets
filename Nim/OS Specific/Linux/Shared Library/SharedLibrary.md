@@ -2,6 +2,8 @@
 
 Shared libraries allow for code to be shared accross programmes and sytem wide. They are the Linux equivalent of DLLs.
 
+
+
 ## The library
 
 The library file (.so) provides the code that will be shared to other programmes.
