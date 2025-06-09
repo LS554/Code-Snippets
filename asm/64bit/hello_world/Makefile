@@ -11,3 +11,11 @@ OBJ= hello
 all:
 	$(ASM) $(ASMFLAGS) $(SRC) -o $(TARGET)
 	$(LD) $(LDFLAGS) $(TARGET) -o $(OBJ)
+
+hello:
+	$(ASM) $(ASMFLAGS) $(SRC) -o $(TARGET)
+	$(LD) $(LDFLAGS) $(TARGET) -o $(OBJ)
+	rm $(TARGET)
+
+clean:
+	rm $(TARGET) $(OBJ)
