@@ -36,8 +36,7 @@ section .text
   ;end read
 
   ;start print input
-  mov rax, 1
-  mov rdi, 1
+  mov rax, 1 ; rax must be reinitialized after every syscall
   mov rsi, buffer
   mov rdx, 256
   syscall
