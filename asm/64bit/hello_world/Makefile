@@ -12,7 +12,7 @@ all:
 	$(ASM) $(ASMFLAGS) $(SRC) -o $(TARGET)
 	$(LD) $(LDFLAGS) $(TARGET) -o $(OBJ)
 
-hello:
+$(OBJ):
 	$(ASM) $(ASMFLAGS) $(SRC) -o $(TARGET)
 	$(LD) $(LDFLAGS) $(TARGET) -o $(OBJ)
 	rm $(TARGET)
