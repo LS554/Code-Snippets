@@ -1,0 +1,9 @@
+.k*
+.m*
+.M*
+..m*
+*.o
+*.mod*
+module*
+Module*
+*.ko
